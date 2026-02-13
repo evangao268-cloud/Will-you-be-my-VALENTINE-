@@ -293,26 +293,3 @@ h2 {
     100% { opacity: 0.3; }
 }
 
-.music-controls {
-    position: fixed;
-    top: 20px;
-    right: 20px;
-    z-index: 1000;
-}
-
-.music-btn {
-    background: var(--primary-color);
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 20px;
-    cursor: pointer;
-    font-size: 16px;
-    transition: all 0.3s ease;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
-}
-
-.music-btn:hover {
-    transform: scale(1.05);
-    background: var(--secondary-color);
-} 
